@@ -8,20 +8,56 @@
 
 // Pseudo code:
 
-// Set one:
-const fruit1 = "apple"
-const fruit2 = "banana"
-// Expected outcome: "banana"
+// const charCount = (fruit) => {
+//     return
+// }
 
-// Set two:
-const fruit3 = "cherry"
-const fruit4 = "kiwi"
-// Expected outcome: "cherry"
+// // Set one:
+// const fruit1 = "apple"
+// const fruit2 = "banana"
+// // Expected outcome: "banana"
+
+// // Set two:
+// const fruit3 = "cherry"
+// const fruit4 = "kiwi"
+// // Expected outcome: "cherry"
 
 // --------------------1) Create a function that takes in a number and determines if the given number is below boiling point, at boiling point, or above boiling point. Boiling point is 212 degrees Fahrenheit. Use the test variables provided below.
 
-// Pseudo code:
+// Pseudo code: compare iputs to  212 
+// functions need a return
+// if statement
+// input number 
+//output string
+// let beause boiling point wont change later
 
+
+const steamBubbles = () => {
+        if(temperatur < steamBubbles) 
+            return temperature "is below boiling point"
+        else if(temperature > steamBubbles)
+            return temperature "is above boiling point"
+        else (temperature === steamBubbles)
+            return temperature "is at boiling point";
+        }
+//output SyntaxError: Unexpected identifier 'is'
+//     at internalCompileFunction (node:internal/vm:73:18)
+//     at wrapSafe (node:internal/modules/cjs/loader:1187:20)
+//     at Module._compile (node:internal/modules/cjs/loader:1231:27)
+//     at Module._extensions..js (node:internal/modules/cjs/loader:1321:10)
+//     at Module.load (node:internal/modules/cjs/loader:1125:32)
+//     at Module._load (node:internal/modules/cjs/loader:965:12)
+//     at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:83:12)
+//     at node:internal/main/run_main_module:23:47
+
+// Node.js v20.0.0
+// learnacademy@MacBook-Air-4 week-1-assessment-kungfuteamountain % node code-challenges.js
+// /Users/learnacademy/Desktop/week-1-assessment-kungfuteamountain/code-challenges.js:37
+//             return temperature "is below boiling point"
+//                                ^^^^^^^^^^^^^^^^^^^^^^^^
+
+// I couldnt make heads or tails of anything at this point. i may have forgotten everything after class.
+        
 const temperature1 = 42
 // Expected output: "42 is below boiling point"
 
