@@ -20,6 +20,8 @@ Researched answer:  GitHub, Inc. is an Internet hosting service for software dev
 
 While Git is a tool that's used to manage multiple versions of source code edits that are then transferred to files in a Git repository, GitHub serves as a location for uploading copies of a Git repository
 
+// git hub allows multiple copies and versions of an original (which is stored and accesed online) to exist with the capability to replace or ,more likely, supplement the "source" of the code/program. git is your local machine's software that enables the user to interact with the main project once cloned to your machine's local files.
+
 2. Which JavaScript operators will return a Boolean value?
 
 Your answer: if
