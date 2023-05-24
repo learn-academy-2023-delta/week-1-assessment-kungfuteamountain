@@ -12,46 +12,52 @@ Your answer:
 
 Researched answer:
 
-1. What is git? What is the difference between git and Github?
+1. What is git? What is the difference between git and Github? //version control
 
-Your answer:
+Your answer: git is local data organization and storage, accessable through your computing machine's terminal. Github is the online version, allowing multiple machines to access and edit stored.
 
-Researched answer:
+Researched answer:  GitHub, Inc. is an Internet hosting service for software development and version control using Git. It provides the distributed version control of Git plus access control, bug tracking, software feature requests, task management, continuous integration, and wikis for every project. 
+
+While Git is a tool that's used to manage multiple versions of source code edits that are then transferred to files in a Git repository, GitHub serves as a location for uploading copies of a Git repository
+
+// git hub allows multiple copies and versions of an original (which is stored and accesed online) to exist with the capability to replace or ,more likely, supplement the "source" of the code/program. git is your local machine's software that enables the user to interact with the main project once cloned to your machine's local files.
 
 2. Which JavaScript operators will return a Boolean value?
 
-Your answer:
+Your answer: if
 
-Researched answer:
+Researched answer: && || 
 
-1. What is the difference between an array's index and its value?
+3. What is the difference between an array's index and its value?
 
-Your answer:
+Your answer: an array's index refers to how many values there are/position starting at 0 (zero indexing)
 
-Researched answer:
+Researched answer: the content of each element is called the value. th eindex is the location of the value.
 
 4. Compare and contrast arrays and strings. Please include ways in which they are the same and ways in which they are different.
 
-Your answer:
+Your answer: arrays may contain strings. strings are words. they both are data types.
 
-Researched answer:
+Researched answer: arrays are variables that store collections of data in an ordered list, arrays have built-in methods that can be used to manipulate and access the content. 
 
 5. Give a brief description of proper pair programming techniques. What are the roles of each person?
 
-Your answer:
+Your answer: pair programming consist of two people coding together; one driver, who physically is typing code, and one navigator, who assists and guides the driver as required to accomplish the code by dictating direction and useful information to the driver.
 
-Researched answer:
+Researched answer: Two people.
+Collaborating on one code source.
+To collectively produce one program.
 
 ## Looking Ahead: Terms for Next Week
 
 Research and define the following terms to the best of your ability.
 
-1. Higher Order Functions:
+1. Higher Order Functions: using a function to return a function. functions based on other return or consideration of another function.
 
-2. Jest:
+2. Jest: Jest is a JavaScript testing framework designed to ensure correctness of any JavaScript codebase by allowing testing of code in terminal (local machine)
 
-3. Objects:
+3. Objects: Objects are a JavaScript data type that has collections of key:value pairs. Objects can contain static information as well as actions in the form of methods. This makes objects the intersection of data and behavior.
 
-4. Method:
+4. Method: when a function belongs to an object/ object contains a function. (HOR?)
 
-5. Classes:
+5. Classes: type of function that contains data and behavior, the blueprints of objects, utilizes keywords to create and access information within. ie; constructor, this- references the object , new.
